@@ -39,7 +39,7 @@ className="rounded-xl border border-slate-300 bg-white p-4"
 />
 {emailError !== '' && <Text className="text-danger">{emailError}
 </Text>}
-}
+
 <TextInput
 value={password}
 onChangeText={setPassword}
@@ -51,4 +51,5 @@ className="rounded-xl border border-slate-300 bg-white p-4"
 </Text>}
 <Button label="Sign In" onPress={handleSignIn} />
 </View>
-)
+  )
+}
